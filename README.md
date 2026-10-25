@@ -64,12 +64,15 @@ The project demonstrates:
 2. **Single Responsibility Principle:** Each strategy implements only one mathematical operation.
 3. **Polymorphism:** Different algorithms share the same interface.
 4. **Open/Closed Principle:** New operations can be added without modifying the existing Calculator class.
-5. **Encapsulation:** The Calculator keeps its strategy reference private.
+5.!(../../Downloads/5.png) **Encapsulation:** The Calculator keeps its strategy reference private.
+
 
 ## 7. UML Diagram
 
-The UML class diagram demonstrates the relationships between the Strategy interface, concrete strategies, Context, and Client.
+The following UML class diagram illustrates the Strategy
+Design Pattern implementation.
 
+![Strategy Pattern UML Diagram](docs/5.png)
 ## 8. Conclusion
 
 The Strategy Pattern makes the calculator flexible, maintainable, and extensible.
